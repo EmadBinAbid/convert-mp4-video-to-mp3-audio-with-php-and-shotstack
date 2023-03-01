@@ -44,6 +44,24 @@ http://localhost:8000/file_name.php
 ```
 Replace 'file_name' with the file name that you want to run.
 
+## Output
+
+After replacing the `file_name.php` with `mp4-to-mp3.php` as mentioned above, you will see the following output:
+
+```
+Render Successfully Queued >> Now check the progress of your render by running: >> php examples/status.php a15c9ef4-4641-4b1d-a037-02c795b1a599
+```
+
+And with `mp4-to-mp3-csv.php`, you will see the output as follows:
+
+```
+Render Successfully Queued >> Now check the progress of your render by running: >> php examples/status.php fcd1ed66-260b-49b2-96e0-0ef101d31b92 
+Render Successfully Queued >> Now check the progress of your render by running: >> php examples/status.php dd8477c2-8890-42fe-b255-db674c513bdc 
+Render Successfully Queued >> Now check the progress of your render by running: >> php examples/status.php 65067731-155c-4340-a8f5-c3906e07d39a 
+Render Successfully Queued >> Now check the progress of your render by running: >> php examples/status.php 11601042-06c9-45be-973f-7d97bba0414e 
+Render Successfully Queued >> Now check the progress of your render by running: >> php examples/status.php ecc2e53c-4640-4731-865d-2ab4c8d76b20
+```
+
 ## Documentation
 
 Documentation and reference guides for the Shotstack video editing API
